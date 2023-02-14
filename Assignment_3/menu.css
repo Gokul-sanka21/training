@@ -1,0 +1,247 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.container{
+    width:100vw;
+    height:110vh;
+    background-image:linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-size: cover;
+    background-repeat: no-repeat ;
+}
+body{
+    background-image: url(dessert.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.navigation{
+    display:flex;
+    align-items: center;
+    padding:25px;
+    justify-content: space-between;
+}
+img{
+    width:100px;
+    height:100px;
+    border:1px solid rgb(237, 180, 35);
+    border-radius: 70px; 
+}
+.links{
+    margin-right: 600px;
+}
+.links a{
+    text-decoration: none;
+    color:rgb(249, 249, 246);
+    margin-left: 80px;
+    font-style: oblique;
+    font: size 15px;;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    font-weight:30px;
+}
+a:hover{
+    color:white;
+}
+.heading{
+    font-size:30px;
+    color:rgb(188, 185, 185);
+    margin-left:30px;
+}
+hr{
+    width:650px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.content{
+    display:flex;
+    margin-top: 30px;
+    position: relative;
+}
+.veg{
+    display:flex;
+    flex-direction: column;
+    margin-left:30px;
+}
+.nonveg{
+    display:flex;
+    flex-direction: column;
+    margin-left: 400px;
+}
+.snacks{
+   display:flex;
+   flex-direction:column;
+   margin-left: 400px;
+}
+.content img{
+    margin-bottom:20px;
+}
+.p1{
+    display: flex;
+    flex-direction: column;
+    width:350px;
+    position:absolute;
+    left:150px;
+    font-size:20px;
+    color:white;
+    padding:10px;
+}
+.p2{
+    display: flex;
+    flex-direction: column;
+ 
+    width:350px;
+    position:absolute;
+    left:150px;
+    font-size:20px;
+    top:130px; 
+    color:white;
+    padding:10px;   
+}
+.p3{
+    display: flex;
+    flex-direction: column;
+
+    width:350px;
+    position:absolute;
+    left:150px;
+    font-size:20px;
+    top:250px; 
+    color:white;
+    padding:10px;   
+}
+.p4{
+    display: flex;
+    flex-direction: column;
+   
+    width:350px;
+    position:absolute;
+    left:150px;
+    font-size:20px;
+    top:370px; 
+    color:white;
+    padding:10px;   
+}
+.veg a{
+    text-decoration: none;
+    color:rgb(237, 180, 35);
+    background-color:black;
+    font-size: medium;
+    width:85px;
+    padding:5px;
+    margin-top:25px;
+    border-radius:10px;
+}
+a:hover{
+    color:white;
+}
+.p5{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    left:670px;
+    top:10px;
+    font-size:20px; 
+    color:white;
+    padding:10px;
+}
+.p6{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    left:670px;
+    top:130px;
+    font-size:20px;
+    color:white;
+    padding:10px;
+}
+.p7{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    left:670px;
+    top:250px;
+    font-size:20px;
+    color:white;
+    padding:10px;
+}
+.p8{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    left:670px;
+    top:370px;
+    font-size:20px;
+    color:white;
+    padding:10px;
+}
+.nonveg a{
+    text-decoration: none;
+    color:rgb(237, 180, 35);
+    background-color:black;
+    font-size: medium;
+    width:85px;
+    padding:5px;
+    margin-top:25px;
+    border-radius:10px;
+}
+a:hover{
+    color:white;
+}
+.p9{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    left:1180px;
+    top:10px;
+    font-size:20px;
+    color:white;
+    padding:10px;
+    
+}
+.p10{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    left:1180px;
+    top:130px;
+    font-size:20px;
+    color:white;
+    padding:10px;
+    
+}
+.p11{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    left:1180px;
+    top:250px;
+    font-size:20px;
+    color:white;
+    padding:10px;
+    
+}
+.p12{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    left:1180px;
+    top:370px;
+    font-size:20px;
+    color:white;
+    padding:10px;
+}
+.snacks a{
+    text-decoration: none;
+    color:rgb(237, 180, 35);
+    background-color:black;
+    font-size: medium;
+    width:85px;
+    padding:5px;
+    margin-top:25px;
+    border-radius:10px;
+}
+a:hover{
+    color:white;
+}
