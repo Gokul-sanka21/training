@@ -1,0 +1,15 @@
+#main_img{
+width: 300px;
+height: 300px;
+margin-left: 70px;
+margin-right: 360px;
+}
+.main_div{
+    display: flex;
+    margin-top: 40px;
+    line-height: 2rem;
+    font-size: larger;
+}
+#super_div{
+    padding-left: 20px;
+}
